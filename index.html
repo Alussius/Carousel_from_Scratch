@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Carousel</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left is-hidden"><strong><</strong></button>
+
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <img src="images/slide_1.jpg" alt="" class="carousel__image">
+                    </li>
+                    <li class="carousel__slide">
+                        <img src="images/slide_2.jpg" alt="" class="carousel__image">
+                    </li>
+                    <li class="carousel__slide">
+                        <img src="images/slide_3.jpg" alt="" class="carousel__image">
+                    </li>
+                </ul>
+            </div>
+
+            <button class="carousel__button carousel__button--right"><strong>></strong></button>
+
+            <div class="carousel__nav">
+                <button class="carousel__indicator current-slide"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
+        </div>
+        
+        <script src="scripts/carousel.js" async defer></script>
+    </body>
+</html>
